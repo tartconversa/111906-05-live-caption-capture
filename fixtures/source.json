@@ -1,0 +1,106 @@
+{
+  "stages": [
+    {
+      "floor": 0,
+      "tail": 8,
+      "snapshot_watermark": 4
+    },
+    {
+      "floor": 8,
+      "tail": 11,
+      "snapshot_watermark": 8
+    },
+    {
+      "floor": 8,
+      "tail": 11,
+      "snapshot_watermark": 11
+    }
+  ],
+  "events": [
+    {
+      "id": 1,
+      "type": "text",
+      "segment": "S-501",
+      "version": 1,
+      "text": "出发先看天气",
+      "final": false
+    },
+    {
+      "id": 2,
+      "type": "speaker",
+      "segment": "S-501",
+      "version": 1,
+      "speaker": "甲嘉宾",
+      "confirmed": true
+    },
+    {
+      "id": 3,
+      "type": "permission",
+      "segment": "S-501",
+      "version": 1,
+      "public": true
+    },
+    {
+      "id": 4,
+      "type": "text",
+      "segment": "S-501",
+      "version": 2,
+      "text": "出发前先看天气。",
+      "final": true
+    },
+    {
+      "id": 5,
+      "type": "text",
+      "segment": "S-502",
+      "version": 1,
+      "text": "高铁也可抵达",
+      "final": true
+    },
+    {
+      "id": 6,
+      "type": "speaker",
+      "segment": "S-502",
+      "version": 1,
+      "speaker": "乙嘉宾",
+      "confirmed": false
+    },
+    {
+      "id": 7,
+      "type": "permission",
+      "segment": "S-502",
+      "version": 1,
+      "public": true
+    },
+    {
+      "id": 8,
+      "type": "text",
+      "segment": "S-503",
+      "version": 1,
+      "text": "这段仍在识别",
+      "final": false
+    },
+    {
+      "id": 9,
+      "type": "speaker",
+      "segment": "S-501",
+      "version": 2,
+      "speaker": "乙嘉宾",
+      "confirmed": true
+    },
+    {
+      "id": 10,
+      "type": "permission",
+      "segment": "S-501",
+      "version": 2,
+      "public": false
+    },
+    {
+      "id": 11,
+      "type": "speaker",
+      "segment": "S-502",
+      "version": 2,
+      "speaker": "乙嘉宾",
+      "confirmed": true
+    }
+  ]
+}
